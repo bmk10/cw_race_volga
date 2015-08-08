@@ -1,0 +1,135 @@
+
+
+
+materialPath: D:\Program Files (x86)\Steam\SteamApps\sourcemods\Crimewars2013\materials
+Loading o:\cw_race_volga\cw_race_volga19.vmf
+Could not locate 'GameData' key in d:\program files (x86)\steam\steamapps\sourcemods\crimewars2013\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 152 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing o:\cw_race_volga\cw_race_volga19.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (591155 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1059 texinfos to 735
+Reduced 68 texdatas to 57 (3218 bytes to 2732)
+Writing o:\cw_race_volga\cw_race_volga19.bsp
+1 second elapsed
+
+
+
+6 threads
+reading o:\cw_race_volga\cw_race_volga19.bsp
+reading o:\cw_race_volga\cw_race_volga19.prt
+ 470 portalclusters
+1142 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 219962
+Average clusters visible: 468
+Building PAS...
+Average clusters audible: 468
+visdatasize:59116  compressed from 60160
+writing o:\cw_race_volga\cw_race_volga19.bsp
+6 seconds elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file I:\SteamLibrary\steamapps\common\Source SDK Base 2013 Multiplayer\bin\lights.rad.
+Loading o:\cw_race_volga\cw_race_volga19.bsp
+3230 faces
+1 degenerate faces
+10869059 square feet [1565144448.00 square inches]
+24 Displacements
+28262 Square Feet [4069738.75 Square Inches]
+3229 patches before subdivision
+162917 patches after subdivision
+26 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 46719758, max 1213
+transfer lists: 356.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(9762, 14766, 13379)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4001, 6362, 5342)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(99, 145, 109)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(41, 60, 39)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(0, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0610 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  11/1024          528/49152    ( 1.1%) 
+brushes                458/8192         5496/98304    ( 5.6%) 
+brushsides            5817/65536       46536/524288   ( 8.9%) 
+planes                7920/65536      158400/1310720  (12.1%) 
+vertexes              4751/65536       57012/786432   ( 7.2%) 
+nodes                 1291/65536       41312/2097152  ( 2.0%) 
+texinfos               735/12288       52920/884736   ( 6.0%) 
+texdata                 57/2048         1824/65536    ( 2.8%) 
+dispinfos               24/0            4224/0        ( 0.0%) 
+disp_verts            2104/0           42080/0        ( 0.0%) 
+disp_tris             3456/0            6912/0        ( 0.0%) 
+disp_lmsamples       49168/0           49168/0        ( 0.0%) 
+faces                 3230/65536      180880/3670016  ( 4.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1574/65536       88144/3670016  ( 2.4%) 
+leaves                1303/65536       41696/2097152  ( 2.0%) 
+leaffaces             4227/65536        8454/131072   ( 6.4%) 
+leafbrushes           1677/65536        3354/131072   ( 2.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            21361/512000      85444/2048000  ( 4.2%) 
+edges                12727/256000      50908/1024000  ( 5.0%) 
+LDR worldlights         25/8192         2200/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            347/32768        3470/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6090/65536       12180/131072   ( 9.3%) 
+cubemapsamples          12/1024          192/16384    ( 1.2%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6853012/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       59116/16777216 ( 0.4%) 
+entdata               [variable]       37418/393216   ( 9.5%) 
+LDR ambient table     1303/65536        5212/262144   ( 2.0%) 
+HDR ambient table     1303/65536        5212/262144   ( 2.0%) 
+LDR leaf ambient      6912/65536      193536/1835008  (10.5%) 
+HDR leaf ambient      1303/65536       36484/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/6730     ( 0.0%) 
+pakfile               [variable]     1388933/0        ( 0.0%) 
+physics               [variable]      591155/4194304  (14.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 8537
+Writing o:\cw_race_volga\cw_race_volga19.bsp
+50 seconds elapsed
